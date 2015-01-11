@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13060A9519EEEE6B008E4C08 /* Starfield.m in Sources */ = {isa = PBXBuildFile; fileRef = 13060A9419EEEE6B008E4C08 /* Starfield.m */; };
+		13060A9B19EEF16E008E4C08 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 13060A9A19EEF16E008E4C08 /* GameModel.m */; };
+		130B910D1A15F1BD002C2431 /* HSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B910C1A15F1BD002C2431 /* HSymbols.m */; };
+		130B91101A15F244002C2431 /* HSwords.m in Sources */ = {isa = PBXBuildFile; fileRef = 130B910F1A15F244002C2431 /* HSwords.m */; };
+		130B911F1A160BC5002C2431 /* start.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B91131A160BC5002C2431 /* start.wav */; };
+		130B91201A160BC5002C2431 /* pang1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B91141A160BC5002C2431 /* pang1.wav */; };
+		130B91211A160BC5002C2431 /* pang2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B91151A160BC5002C2431 /* pang2.wav */; };
+		130B91221A160BC5002C2431 /* pang3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B91161A160BC5002C2431 /* pang3.wav */; };
+		130B91231A160BC5002C2431 /* pang4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B91171A160BC5002C2431 /* pang4.wav */; };
+		130B91241A160BC5002C2431 /* ping1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B91181A160BC5002C2431 /* ping1.wav */; };
+		130B91251A160BC5002C2431 /* pong1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B91191A160BC5002C2431 /* pong1.wav */; };
+		130B91261A160BC5002C2431 /* pong2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B911A1A160BC5002C2431 /* pong2.wav */; };
+		130B91271A160BC5002C2431 /* pong3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B911B1A160BC5002C2431 /* pong3.wav */; };
+		130B91281A160BC5002C2431 /* pong4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B911C1A160BC5002C2431 /* pong4.wav */; };
+		130B91291A160BC5002C2431 /* pong5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B911D1A160BC5002C2431 /* pong5.wav */; };
+		130B912A1A160BC5002C2431 /* pong6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 130B911E1A160BC5002C2431 /* pong6.wav */; };
+		130C4C641A50E00F000BA25C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 130C4C631A50E00F000BA25C /* LaunchScreen.xib */; };
+		13189FA419F03D1200C93540 /* HallucinationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13189FA319F03D1200C93540 /* HallucinationManager.m */; };
+		13189FAA19F04E7B00C93540 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13189FA919F04E7B00C93540 /* GameManager.m */; };
+		132E8E8B1A2010D600474AE7 /* HGateI.m in Sources */ = {isa = PBXBuildFile; fileRef = 132E8E8A1A2010D600474AE7 /* HGateI.m */; };
+		132E8E8E1A2010FA00474AE7 /* HConveyor.m in Sources */ = {isa = PBXBuildFile; fileRef = 132E8E8D1A2010FA00474AE7 /* HConveyor.m */; };
+		132E8E911A20123300474AE7 /* HJester.m in Sources */ = {isa = PBXBuildFile; fileRef = 132E8E901A20123300474AE7 /* HJester.m */; };
+		137C5A7219ECBF5A00A3D9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C5A7119ECBF5A00A3D9AA /* main.m */; };
+		137C5A7519ECBF5A00A3D9AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C5A7419ECBF5A00A3D9AA /* AppDelegate.m */; };
+		137C5A7819ECBF5A00A3D9AA /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C5A7719ECBF5A00A3D9AA /* GameScene.m */; };
+		137C5A7D19ECBF5A00A3D9AA /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C5A7C19ECBF5A00A3D9AA /* GameViewController.m */; };
+		137C5A8019ECBF5A00A3D9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137C5A7E19ECBF5A00A3D9AA /* Main.storyboard */; };
+		137C5A8219ECBF5A00A3D9AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137C5A8119ECBF5A00A3D9AA /* Images.xcassets */; };
+		137C5A9119ECBF5A00A3D9AA /* RecedingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 137C5A9019ECBF5A00A3D9AA /* RecedingTests.m */; };
+		13AC38231A0FFF5A001002F2 /* ReStartScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AC38221A0FFF5A001002F2 /* ReStartScene.m */; };
+		13AC38271A105BC6001002F2 /* HJoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AC38261A105BC6001002F2 /* HJoker.m */; };
+		13AC382A1A105C7C001002F2 /* HEyeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AC38291A105C7C001002F2 /* HEyeys.m */; };
+		13AC382D1A105CDB001002F2 /* HPyra.m in Sources */ = {isa = PBXBuildFile; fileRef = 13AC382C1A105CDB001002F2 /* HPyra.m */; };
+		13B0DD371A15A236009A7493 /* HFlower1.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B0DD361A15A236009A7493 /* HFlower1.m */; };
+		13B0DD3A1A15A9C0009A7493 /* HSKull.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B0DD391A15A9C0009A7493 /* HSKull.m */; };
+		13EADD4F1A13F07D0002AAE4 /* Hallucination.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EADD4E1A13F07D0002AAE4 /* Hallucination.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		137C5A8B19ECBF5A00A3D9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137C5A6419ECBF5A00A3D9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137C5A6B19ECBF5A00A3D9AA;
+			remoteInfo = Receding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13060A9319EEEE6B008E4C08 /* Starfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Starfield.h; sourceTree = "<group>"; };
+		13060A9419EEEE6B008E4C08 /* Starfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Starfield.m; sourceTree = "<group>"; };
+		13060A9919EEF16E008E4C08 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		13060A9A19EEF16E008E4C08 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		13060A9C19EEF1C7008E4C08 /* GameHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameHeaders.h; path = ../GameHeaders.h; sourceTree = "<group>"; };
+		13060A9D19EEF1C7008E4C08 /* GameHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameHeaders.m; path = ../GameHeaders.m; sourceTree = "<group>"; };
+		130B910B1A15F1BD002C2431 /* HSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSymbols.h; sourceTree = "<group>"; };
+		130B910C1A15F1BD002C2431 /* HSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSymbols.m; sourceTree = "<group>"; };
+		130B910E1A15F244002C2431 /* HSwords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSwords.h; sourceTree = "<group>"; };
+		130B910F1A15F244002C2431 /* HSwords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSwords.m; sourceTree = "<group>"; };
+		130B91131A160BC5002C2431 /* start.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = start.wav; sourceTree = "<group>"; };
+		130B91141A160BC5002C2431 /* pang1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pang1.wav; sourceTree = "<group>"; };
+		130B91151A160BC5002C2431 /* pang2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pang2.wav; sourceTree = "<group>"; };
+		130B91161A160BC5002C2431 /* pang3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pang3.wav; sourceTree = "<group>"; };
+		130B91171A160BC5002C2431 /* pang4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pang4.wav; sourceTree = "<group>"; };
+		130B91181A160BC5002C2431 /* ping1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ping1.wav; sourceTree = "<group>"; };
+		130B91191A160BC5002C2431 /* pong1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pong1.wav; sourceTree = "<group>"; };
+		130B911A1A160BC5002C2431 /* pong2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pong2.wav; sourceTree = "<group>"; };
+		130B911B1A160BC5002C2431 /* pong3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pong3.wav; sourceTree = "<group>"; };
+		130B911C1A160BC5002C2431 /* pong4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pong4.wav; sourceTree = "<group>"; };
+		130B911D1A160BC5002C2431 /* pong5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pong5.wav; sourceTree = "<group>"; };
+		130B911E1A160BC5002C2431 /* pong6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pong6.wav; sourceTree = "<group>"; };
+		130C4C601A50DEF8000BA25C /* GameHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameHeaders.m; sourceTree = "<group>"; };
+		130C4C611A50DEF8000BA25C /* GameHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameHeaders.h; sourceTree = "<group>"; };
+		130C4C631A50E00F000BA25C /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		13189FA219F03D1200C93540 /* HallucinationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HallucinationManager.h; sourceTree = "<group>"; };
+		13189FA319F03D1200C93540 /* HallucinationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HallucinationManager.m; sourceTree = "<group>"; };
+		13189FA819F04E7B00C93540 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		13189FA919F04E7B00C93540 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		132E8E891A2010D600474AE7 /* HGateI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGateI.h; sourceTree = "<group>"; };
+		132E8E8A1A2010D600474AE7 /* HGateI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGateI.m; sourceTree = "<group>"; };
+		132E8E8C1A2010FA00474AE7 /* HConveyor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HConveyor.h; sourceTree = "<group>"; };
+		132E8E8D1A2010FA00474AE7 /* HConveyor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HConveyor.m; sourceTree = "<group>"; };
+		132E8E8F1A20123300474AE7 /* HJester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJester.h; sourceTree = "<group>"; };
+		132E8E901A20123300474AE7 /* HJester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJester.m; sourceTree = "<group>"; };
+		137C5A6C19ECBF5A00A3D9AA /* Receding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Receding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		137C5A7019ECBF5A00A3D9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137C5A7119ECBF5A00A3D9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		137C5A7319ECBF5A00A3D9AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		137C5A7419ECBF5A00A3D9AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		137C5A7619ECBF5A00A3D9AA /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		137C5A7719ECBF5A00A3D9AA /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		137C5A7B19ECBF5A00A3D9AA /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		137C5A7C19ECBF5A00A3D9AA /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		137C5A7F19ECBF5A00A3D9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		137C5A8119ECBF5A00A3D9AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		137C5A8A19ECBF5A00A3D9AA /* RecedingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecedingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		137C5A8F19ECBF5A00A3D9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137C5A9019ECBF5A00A3D9AA /* RecedingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecedingTests.m; sourceTree = "<group>"; };
+		13AC38211A0FFF5A001002F2 /* ReStartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReStartScene.h; sourceTree = "<group>"; };
+		13AC38221A0FFF5A001002F2 /* ReStartScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReStartScene.m; sourceTree = "<group>"; };
+		13AC38251A105BC6001002F2 /* HJoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJoker.h; sourceTree = "<group>"; };
+		13AC38261A105BC6001002F2 /* HJoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJoker.m; sourceTree = "<group>"; };
+		13AC38281A105C7C001002F2 /* HEyeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEyeys.h; sourceTree = "<group>"; };
+		13AC38291A105C7C001002F2 /* HEyeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEyeys.m; sourceTree = "<group>"; };
+		13AC382B1A105CDB001002F2 /* HPyra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPyra.h; sourceTree = "<group>"; };
+		13AC382C1A105CDB001002F2 /* HPyra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPyra.m; sourceTree = "<group>"; };
+		13B0DD351A15A236009A7493 /* HFlower1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFlower1.h; sourceTree = "<group>"; };
+		13B0DD361A15A236009A7493 /* HFlower1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFlower1.m; sourceTree = "<group>"; };
+		13B0DD381A15A9C0009A7493 /* HSKull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSKull.h; sourceTree = "<group>"; };
+		13B0DD391A15A9C0009A7493 /* HSKull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSKull.m; sourceTree = "<group>"; };
+		13EADD4D1A13F07D0002AAE4 /* Hallucination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hallucination.h; sourceTree = "<group>"; };
+		13EADD4E1A13F07D0002AAE4 /* Hallucination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hallucination.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137C5A6919ECBF5A00A3D9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137C5A8719ECBF5A00A3D9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13060A9619EEEE78008E4C08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13060A9919EEF16E008E4C08 /* GameModel.h */,
+				13060A9A19EEF16E008E4C08 /* GameModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		13060A9719EEEE7E008E4C08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13AC38191A0FD7C8001002F2 /* Scenes */,
+				13060A9319EEEE6B008E4C08 /* Starfield.h */,
+				13060A9419EEEE6B008E4C08 /* Starfield.m */,
+				13AC38241A104DCC001002F2 /* Hallucinations */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		13060A9819EEEE82008E4C08 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13189FA219F03D1200C93540 /* HallucinationManager.h */,
+				13189FA319F03D1200C93540 /* HallucinationManager.m */,
+				13189FA819F04E7B00C93540 /* GameManager.h */,
+				13189FA919F04E7B00C93540 /* GameManager.m */,
+				137C5A7B19ECBF5A00A3D9AA /* GameViewController.h */,
+				137C5A7C19ECBF5A00A3D9AA /* GameViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		137C5A6319ECBF5A00A3D9AA = {
+			isa = PBXGroup;
+			children = (
+				137C5A6E19ECBF5A00A3D9AA /* Receding */,
+				137C5A8D19ECBF5A00A3D9AA /* RecedingTests */,
+				137C5A6D19ECBF5A00A3D9AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		137C5A6D19ECBF5A00A3D9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137C5A6C19ECBF5A00A3D9AA /* Receding.app */,
+				137C5A8A19ECBF5A00A3D9AA /* RecedingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		137C5A6E19ECBF5A00A3D9AA /* Receding */ = {
+			isa = PBXGroup;
+			children = (
+				137C5A7319ECBF5A00A3D9AA /* AppDelegate.h */,
+				137C5A7419ECBF5A00A3D9AA /* AppDelegate.m */,
+				130C4C601A50DEF8000BA25C /* GameHeaders.m */,
+				130C4C611A50DEF8000BA25C /* GameHeaders.h */,
+				13060A9619EEEE78008E4C08 /* Model */,
+				13060A9719EEEE7E008E4C08 /* View */,
+				13060A9819EEEE82008E4C08 /* Controller */,
+				13AC38181A0F2283001002F2 /* Audio */,
+				13AC381A1A0FD821001002F2 /* Visual */,
+				137C5A6F19ECBF5A00A3D9AA /* Supporting Files */,
+			);
+			path = Receding;
+			sourceTree = "<group>";
+		};
+		137C5A6F19ECBF5A00A3D9AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13060A9C19EEF1C7008E4C08 /* GameHeaders.h */,
+				13060A9D19EEF1C7008E4C08 /* GameHeaders.m */,
+				137C5A7019ECBF5A00A3D9AA /* Info.plist */,
+				137C5A7119ECBF5A00A3D9AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		137C5A8D19ECBF5A00A3D9AA /* RecedingTests */ = {
+			isa = PBXGroup;
+			children = (
+				137C5A9019ECBF5A00A3D9AA /* RecedingTests.m */,
+				137C5A8E19ECBF5A00A3D9AA /* Supporting Files */,
+			);
+			path = RecedingTests;
+			sourceTree = "<group>";
+		};
+		137C5A8E19ECBF5A00A3D9AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				137C5A8F19ECBF5A00A3D9AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13AC38181A0F2283001002F2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				130B91131A160BC5002C2431 /* start.wav */,
+				130B91141A160BC5002C2431 /* pang1.wav */,
+				130B91151A160BC5002C2431 /* pang2.wav */,
+				130B91161A160BC5002C2431 /* pang3.wav */,
+				130B91171A160BC5002C2431 /* pang4.wav */,
+				130B91181A160BC5002C2431 /* ping1.wav */,
+				130B91191A160BC5002C2431 /* pong1.wav */,
+				130B911A1A160BC5002C2431 /* pong2.wav */,
+				130B911B1A160BC5002C2431 /* pong3.wav */,
+				130B911C1A160BC5002C2431 /* pong4.wav */,
+				130B911D1A160BC5002C2431 /* pong5.wav */,
+				130B911E1A160BC5002C2431 /* pong6.wav */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		13AC38191A0FD7C8001002F2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				137C5A7619ECBF5A00A3D9AA /* GameScene.h */,
+				137C5A7719ECBF5A00A3D9AA /* GameScene.m */,
+				13AC38211A0FFF5A001002F2 /* ReStartScene.h */,
+				13AC38221A0FFF5A001002F2 /* ReStartScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		13AC381A1A0FD821001002F2 /* Visual */ = {
+			isa = PBXGroup;
+			children = (
+				137C5A7E19ECBF5A00A3D9AA /* Main.storyboard */,
+				130C4C631A50E00F000BA25C /* LaunchScreen.xib */,
+				137C5A8119ECBF5A00A3D9AA /* Images.xcassets */,
+			);
+			name = Visual;
+			sourceTree = "<group>";
+		};
+		13AC38241A104DCC001002F2 /* Hallucinations */ = {
+			isa = PBXGroup;
+			children = (
+				13EADD4D1A13F07D0002AAE4 /* Hallucination.h */,
+				13EADD4E1A13F07D0002AAE4 /* Hallucination.m */,
+				13B0DD351A15A236009A7493 /* HFlower1.h */,
+				13B0DD361A15A236009A7493 /* HFlower1.m */,
+				132E8E891A2010D600474AE7 /* HGateI.h */,
+				132E8E8A1A2010D600474AE7 /* HGateI.m */,
+				132E8E8C1A2010FA00474AE7 /* HConveyor.h */,
+				132E8E8D1A2010FA00474AE7 /* HConveyor.m */,
+				13AC38251A105BC6001002F2 /* HJoker.h */,
+				13AC38261A105BC6001002F2 /* HJoker.m */,
+				13AC38281A105C7C001002F2 /* HEyeys.h */,
+				13AC38291A105C7C001002F2 /* HEyeys.m */,
+				132E8E8F1A20123300474AE7 /* HJester.h */,
+				132E8E901A20123300474AE7 /* HJester.m */,
+				13AC382B1A105CDB001002F2 /* HPyra.h */,
+				13AC382C1A105CDB001002F2 /* HPyra.m */,
+				13B0DD381A15A9C0009A7493 /* HSKull.h */,
+				13B0DD391A15A9C0009A7493 /* HSKull.m */,
+				130B910B1A15F1BD002C2431 /* HSymbols.h */,
+				130B910C1A15F1BD002C2431 /* HSymbols.m */,
+				130B910E1A15F244002C2431 /* HSwords.h */,
+				130B910F1A15F244002C2431 /* HSwords.m */,
+			);
+			name = Hallucinations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137C5A6B19ECBF5A00A3D9AA /* Receding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137C5A9419ECBF5A00A3D9AA /* Build configuration list for PBXNativeTarget "Receding" */;
+			buildPhases = (
+				137C5A6819ECBF5A00A3D9AA /* Sources */,
+				137C5A6919ECBF5A00A3D9AA /* Frameworks */,
+				137C5A6A19ECBF5A00A3D9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Receding;
+			productName = Receding;
+			productReference = 137C5A6C19ECBF5A00A3D9AA /* Receding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		137C5A8919ECBF5A00A3D9AA /* RecedingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137C5A9719ECBF5A00A3D9AA /* Build configuration list for PBXNativeTarget "RecedingTests" */;
+			buildPhases = (
+				137C5A8619ECBF5A00A3D9AA /* Sources */,
+				137C5A8719ECBF5A00A3D9AA /* Frameworks */,
+				137C5A8819ECBF5A00A3D9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				137C5A8C19ECBF5A00A3D9AA /* PBXTargetDependency */,
+			);
+			name = RecedingTests;
+			productName = RecedingTests;
+			productReference = 137C5A8A19ECBF5A00A3D9AA /* RecedingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137C5A6419ECBF5A00A3D9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = MXTTE;
+				TargetAttributes = {
+					137C5A6B19ECBF5A00A3D9AA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					137C5A8919ECBF5A00A3D9AA = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 137C5A6B19ECBF5A00A3D9AA;
+					};
+				};
+			};
+			buildConfigurationList = 137C5A6719ECBF5A00A3D9AA /* Build configuration list for PBXProject "Receding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 137C5A6319ECBF5A00A3D9AA;
+			productRefGroup = 137C5A6D19ECBF5A00A3D9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137C5A6B19ECBF5A00A3D9AA /* Receding */,
+				137C5A8919ECBF5A00A3D9AA /* RecedingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		137C5A6A19ECBF5A00A3D9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130B91291A160BC5002C2431 /* pong5.wav in Resources */,
+				130B912A1A160BC5002C2431 /* pong6.wav in Resources */,
+				137C5A8219ECBF5A00A3D9AA /* Images.xcassets in Resources */,
+				130B91251A160BC5002C2431 /* pong1.wav in Resources */,
+				130B91201A160BC5002C2431 /* pang1.wav in Resources */,
+				130B91261A160BC5002C2431 /* pong2.wav in Resources */,
+				137C5A8019ECBF5A00A3D9AA /* Main.storyboard in Resources */,
+				130B911F1A160BC5002C2431 /* start.wav in Resources */,
+				130B91241A160BC5002C2431 /* ping1.wav in Resources */,
+				130B91271A160BC5002C2431 /* pong3.wav in Resources */,
+				130B91211A160BC5002C2431 /* pang2.wav in Resources */,
+				130C4C641A50E00F000BA25C /* LaunchScreen.xib in Resources */,
+				130B91281A160BC5002C2431 /* pong4.wav in Resources */,
+				130B91221A160BC5002C2431 /* pang3.wav in Resources */,
+				130B91231A160BC5002C2431 /* pang4.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137C5A8819ECBF5A00A3D9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137C5A6819ECBF5A00A3D9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AC382A1A105C7C001002F2 /* HEyeys.m in Sources */,
+				13189FAA19F04E7B00C93540 /* GameManager.m in Sources */,
+				13189FA419F03D1200C93540 /* HallucinationManager.m in Sources */,
+				13AC38271A105BC6001002F2 /* HJoker.m in Sources */,
+				13EADD4F1A13F07D0002AAE4 /* Hallucination.m in Sources */,
+				13AC382D1A105CDB001002F2 /* HPyra.m in Sources */,
+				13060A9B19EEF16E008E4C08 /* GameModel.m in Sources */,
+				13B0DD371A15A236009A7493 /* HFlower1.m in Sources */,
+				130B91101A15F244002C2431 /* HSwords.m in Sources */,
+				137C5A7D19ECBF5A00A3D9AA /* GameViewController.m in Sources */,
+				132E8E8B1A2010D600474AE7 /* HGateI.m in Sources */,
+				130B910D1A15F1BD002C2431 /* HSymbols.m in Sources */,
+				137C5A7519ECBF5A00A3D9AA /* AppDelegate.m in Sources */,
+				13AC38231A0FFF5A001002F2 /* ReStartScene.m in Sources */,
+				132E8E911A20123300474AE7 /* HJester.m in Sources */,
+				13060A9519EEEE6B008E4C08 /* Starfield.m in Sources */,
+				137C5A7819ECBF5A00A3D9AA /* GameScene.m in Sources */,
+				13B0DD3A1A15A9C0009A7493 /* HSKull.m in Sources */,
+				132E8E8E1A2010FA00474AE7 /* HConveyor.m in Sources */,
+				137C5A7219ECBF5A00A3D9AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137C5A8619ECBF5A00A3D9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137C5A9119ECBF5A00A3D9AA /* RecedingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		137C5A8C19ECBF5A00A3D9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137C5A6B19ECBF5A00A3D9AA /* Receding */;
+			targetProxy = 137C5A8B19ECBF5A00A3D9AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		137C5A7E19ECBF5A00A3D9AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				137C5A7F19ECBF5A00A3D9AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		137C5A9219ECBF5A00A3D9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		137C5A9319ECBF5A00A3D9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Matthew Fitzpatrick (NZK8QD9KQM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Matthew Fitzpatrick (NZK8QD9KQM)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		137C5A9519ECBF5A00A3D9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Receding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		137C5A9619ECBF5A00A3D9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Receding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		137C5A9819ECBF5A00A3D9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecedingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Receding.app/Receding";
+			};
+			name = Debug;
+		};
+		137C5A9919ECBF5A00A3D9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RecedingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Receding.app/Receding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		137C5A6719ECBF5A00A3D9AA /* Build configuration list for PBXProject "Receding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137C5A9219ECBF5A00A3D9AA /* Debug */,
+				137C5A9319ECBF5A00A3D9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137C5A9419ECBF5A00A3D9AA /* Build configuration list for PBXNativeTarget "Receding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137C5A9519ECBF5A00A3D9AA /* Debug */,
+				137C5A9619ECBF5A00A3D9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137C5A9719ECBF5A00A3D9AA /* Build configuration list for PBXNativeTarget "RecedingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137C5A9819ECBF5A00A3D9AA /* Debug */,
+				137C5A9919ECBF5A00A3D9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 137C5A6419ECBF5A00A3D9AA /* Project object */;
+}
